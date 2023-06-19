@@ -7,7 +7,7 @@ public class AppController {
     
     public AppController() {
     }
-    
+
     public AppController(int a, int b) {
         this.a = a;
         this.b = b;
@@ -23,6 +23,11 @@ public class AppController {
     }
     public void setB(int b) {
         this.b = b;
+    }
+
+    @Override
+    public String toString() {
+        return "AppController [a=" + a + ", b=" + b + "]";
     }
     
 }
