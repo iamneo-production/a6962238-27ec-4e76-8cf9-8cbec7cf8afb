@@ -7,8 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringappApplication {
 
 	public static void main(String[] args) {
-		System.out.println("Welcome to spring app");
-		System.out.println("I am going to show how github works");
+		
+		System.out.println("I am going from Coder Venkatesh to Main");
 		SpringApplication.run(SpringappApplication.class, args);
 		
 	}
